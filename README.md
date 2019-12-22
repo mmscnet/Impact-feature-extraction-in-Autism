@@ -1,0 +1,7 @@
+# Impact of feature extraction in Autism prediction from functional connectivity
+
+Autism Spectrum Disorders (ASD) is a largely pervasive condition that has claimed big attention from the medical and scientific community in order to find biomarkers leading to better understanding and diagnosis. Specifically, great efforts have been directed to the identification of brain connectivity alterations detected in resting state functional magnetic resonance imaging (rs-fMRI) data. The computational pipelines involve the computation of the functional connectivity matrix and the induction of classification models from them. State of the art studies have not used feature extraction or feature selection methods for this task. In this paper we provide a comprehensive exploration of the impact of feature extraction/selection methods on the predictive pipeline. We find, that principal component analysis (PCA) and factor analysis (FA) methods provide a significant improvement. Also, a feature selection method based on the Pearson Correlation Coefficient between connection value across subjects and the subject label achieves state of the art results retaining a few as a 1% of the connections, without losing the anatomical meaning associated with the original variables.
+
+## Requirements
+- scikit-earn 0.19.2
+- nilearn 0.5.2
